@@ -1,0 +1,19 @@
++-----------------+                                              +-----------------+
+|  Tokenizator    |                                              |      User       |
++-----------------+                                              +-----------------+
+        |                                                                 |                                
+        v                                                                 v
++------------------+           +---------------------+           +------------------+
+|     COMPANY      |           |      OFERT          |           |   INVESTOR       |
++------------------+           +---------------------+           +------------------+
+| - simbol: string |           |- InitialDate: Date  |           |- name: string    |
+| - name: string   |           |- EndDate: Date      |           |- email: string   |
+|                  |           |- cantityTokens: int |           |- address: string |
+|                  |           |- preiceToken: float |           |                  |
+|                  |<--------->|- invertionMin: float|<--------->|                  |
+|                  |           |- invertionMax: float|           |                  |
+|                  |           |- estado: string     |           |                  |
+|                  |           |- Ofert ID: string   |           |                  |
++------------------+           +---------------------+           +-------------------+
+
+                                          
